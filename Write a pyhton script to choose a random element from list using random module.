@@ -1,0 +1,5 @@
+from random import choices
+
+lst = ['Ruchika', 'Deepu', 'Chanchal','Jyoti singh']
+out = choices(lst)
+print(out)
