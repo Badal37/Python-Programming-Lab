@@ -1,0 +1,5 @@
+dic = {'a': 1, 'b': 3, 'c': 3}
+opt = input("Enter the key you want to remove: ")
+dic.pop(opt)
+
+print(dic)
