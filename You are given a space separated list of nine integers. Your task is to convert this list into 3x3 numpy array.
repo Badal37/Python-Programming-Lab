@@ -1,0 +1,4 @@
+lst = list(map(int, input().split()))
+arr = np.array(lst)
+arr = arr.reshape(3,3)
+print(arr)
