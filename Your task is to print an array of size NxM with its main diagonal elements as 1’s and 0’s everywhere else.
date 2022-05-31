@@ -1,0 +1,5 @@
+row = int(input("Enter row of array: "))
+col = int(input("Enter column of array: "))
+
+arr = np.eye(row, col)
+print(arr)
