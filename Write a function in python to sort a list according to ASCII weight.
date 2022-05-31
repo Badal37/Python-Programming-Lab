@@ -1,0 +1,3 @@
+lst = ['Sunil', 'Vishnu', 'SHIV', 'Vibhanshi', 'rohit', 'Deepika']
+lst.sort(key = lambda x: sum(map(ord, x)))
+print(lst)
