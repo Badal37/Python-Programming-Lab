@@ -1,0 +1,10 @@
+from functools import reduce
+
+dic = {'a': 1, 'b': 3, 'c': 3}
+ls = []
+
+for i in dic:
+    ls.append(dic[i])
+
+out = reduce(lambda x, y : x*y, ls)
+print(out)
