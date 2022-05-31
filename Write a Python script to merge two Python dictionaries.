@@ -1,0 +1,7 @@
+dic_1 = {'name': 'Ruchit', 'Roll no': 37, 'Marks': 24}
+dic_2 = {'Name': 'Vishu', 'roll no': 53, 'marks': 26}
+
+d = dic_1.copy()
+d.update(dic_2)
+
+print(d)
