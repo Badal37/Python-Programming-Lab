@@ -1,0 +1,5 @@
+import numpy as np
+
+lst = list(map(float, input().split()))
+arr = np.array(lst[::-1])
+print(arr)
