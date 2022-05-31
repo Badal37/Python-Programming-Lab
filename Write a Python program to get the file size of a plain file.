@@ -1,0 +1,4 @@
+import os
+
+size = os.path.getsize("Practice.txt")
+print(f"{size} bytes")
