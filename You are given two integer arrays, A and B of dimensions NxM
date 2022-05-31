@@ -1,0 +1,34 @@
+# Your task is to perform the following operations:
+# 1. Add (A +B )
+# 2. Subtract ( A-B )
+# 3. Multiply ( A*B )
+# 4. Integer Division (A //B )
+# 5. Mod ( A%B )
+# 6. Power ( A**B )
+
+A = np.array([[1, 2], [2, 4]])
+B = np.array([[1, 2], [2, 4]])
+
+# Addition
+res = np.add(A, B)
+print(res)
+
+# Substraction
+res = np.subtract(A, B)
+print(res)
+
+# Multiply
+res = np.matmul(A, B)
+print(res)
+
+# Divide
+res = np.floor_divide(A, B)
+print(res)
+
+# Mod
+res = np.mod(A, B)
+print(res)
+
+# Power
+res = np.power(A, B)
+print(res)
