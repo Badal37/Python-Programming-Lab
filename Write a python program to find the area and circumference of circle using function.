@@ -1,0 +1,11 @@
+from math import pi
+
+def area_circum(r):
+    A = pi*r**2
+    C = 2*pi*r
+
+    print(f'Area is {A} and circumference is {C}')
+
+if __name__ == "__main__":
+    n = float(input('Enter the radius: '))
+    area_circum(n)
