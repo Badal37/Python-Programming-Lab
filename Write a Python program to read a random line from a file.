@@ -1,0 +1,6 @@
+import random
+
+with open("Last.txt") as f:
+    lst = f.readlines()
+    choice = random.choice(lst)
+    print(choice)
