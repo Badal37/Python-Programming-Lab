@@ -1,0 +1,5 @@
+lst = ["market", 'shop', 'basket','fruit']
+
+for i in lst:
+    with open("Practice.txt", 'a') as f:
+        f.write("\n"+i) 
