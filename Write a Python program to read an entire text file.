@@ -1,0 +1,4 @@
+f = open('data.txt', 'w')
+f.write("Rahul Chaudhary\n")
+f.write("B.Tech CS\n")
+f.close()
