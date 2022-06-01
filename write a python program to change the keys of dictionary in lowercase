@@ -1,0 +1,5 @@
+def lower_dict(d):
+   new_dict = dict((k.lower(), v) for k, v in d.items())
+   return new_dict
+a = {'Foo': "Hello", 'Bar': "World"}
+print(lower_dict(a))
