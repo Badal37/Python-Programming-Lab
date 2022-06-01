@@ -1,0 +1,5 @@
+def upper_dict(d):
+   new_dict = dict((k.upper(), v) for k, v in d.items())
+   return new_dict
+a = {'Foo': "Hello", 'Bar': "World"}
+print(upper_dict(a))
